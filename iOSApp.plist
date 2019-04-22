@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<!-- this is the dropbox URL of the app (.ipa) file. Get the link to share the .ipa file -->
+					<!-- and then replace "www.dropbox.com" with "dl.dropboxusercontent.com"-->
+					<key>url</key>
+					<string>https://www.dropbox.com/s/xctjsqu2feptqcc/ITHelpDesk.ipa?dl=0</string>
+				</dict> 
+			</array>
+			<key>metadata</key>
+			<dict>
+				<!-- your app's bundle identified; this should be identical to the one you specifed in your Xcode project-->
+				<key>bundle-identifier</key>
+				<string>com.sharjahairportauthority.SAAHelpDesk</string>
+				<!--Your app's bundle version; this should be identical to the one you specified in your Xcode project -->
+				<key>bundle-version</key>
+				<string>1.0.1</string>
+				<key>kind</key>
+				<string>software</string>
+				<!-- The name of your app, which is displayed during download and installation -->
+				<key>title</key>
+				<string>IT Helpdesk</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
